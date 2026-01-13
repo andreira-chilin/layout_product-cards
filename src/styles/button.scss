@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+
+  background-color: $secondary-accent-color;
+  height: 40px;
+  border: solid 1px $secondary-accent-color;
+  border-radius: 5px;
+
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $btn-color;
+
+  transition: all 0.3s ease; // Плавний перехід
+
+  &:hover {
+    background-color: $btn-color;
+    color: $secondary-accent-color;
+  }
+}
